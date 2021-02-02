@@ -1,0 +1,411 @@
+body{
+    background:url("BACKGROUNDAIM1.jpg");
+    background-attachment: fixed;
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    background: rgba(255,255,255,0.3);
+    height:85px;
+    position: relative;
+}
+
+.nav-area{
+    position: fixed;
+    right: 0;
+    list-style:none;
+    margin-top:14px;
+    font-family: sans-serif;
+    padding: 0 100px;
+}
+
+.nav-area li{
+    display: inline-block;
+
+}
+
+.nav-area li a{
+    color:#000;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family:poppins;
+    font-size: 22px;
+    font-family: sans-serif;
+    transition: .5s;
+}
+
+.nav-area li a:hover{
+    background: white;
+    box-shadow: 10px 10px 5px grey;
+    font-family: sans-serif;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.active{
+    border-bottom: 4px solid white;
+}
+
+.ict img{
+    padding: 0px 50px;
+   position: absolute;
+   width: 140px;
+   height: 80px;
+   background-repeat: no-repeat; 
+   background-attachment: fixed;
+   animation: aim 2s;
+}
+
+
+h6{
+    position: absolute;
+    font-size: 24px;
+    font-family: sans-serif;
+    left: 170px;
+    margin-top: 27px;
+    animation: logo 2s;
+    color:#000;
+}
+
+
+.bg-image{
+    background: url(BackgroundWebsiteImage.jpg);
+    z-index: -1;
+    background-size: 100%;
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    position: absolute;
+}
+
+/* main title on the homepage*/
+.main-welcome{
+    text-align: center;
+}
+
+.welcome{
+    color:#fff;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    text-align: right;
+    margin-top: 250px;
+    animation: welcome 4s 1;
+    text-shadow: 3px 3px #363636;
+
+}
+
+.main-welcome p{
+    font-size: 25px;
+    font-family: Bahnschrift;
+    margin-top: 35px;
+    color: #fff;
+    animation: 
+}
+
+.main-welcome a{
+    border: 2px solid #fff;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-top: 40px;
+    display: inline-block;
+    color: #fff;
+    font-family:'Poppins', sans-serif;
+    border-radius: 24px;
+    font-weight: bold;
+    transition: 1s;
+}
+
+.main-welcome a:hover{
+    background:white;
+    color: black;
+    box-shadow: 0 0 10px #4a99ed, 0 0 40px #592bff, 0 0 80px #d92ee8;  
+    border-radius: 24px;
+    transition: 0.25s;
+    padding: 15px 40px;
+
+}
+
+.ictweeklogo{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 5%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+}
+
+.laverdadlogo{
+    position: absolute;
+    margin-top: 0%;
+    margin-left: 87%;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 3px solid white;
+}
+
+/* alternate contact us */
+
+.bottom-box{
+    position: fixed;
+    background-color: #6a6a6a;
+    width: 100%;
+    height: 5%;
+    bottom:0;
+    transition: 1.5s;
+    transition-delay: 1s;
+    background: rgba(12.9%,12.9%,12.9%,0.65);
+    }
+
+.bottom-box p{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    margin-top:0;
+    letter-spacing: -1px;
+}
+
+.bottom-box:hover{
+    position: fixed;
+    background-color: #212121;
+    width: 100%;
+    height: 30%;
+    bottom:0;
+    transition: 1.5s;
+    cursor: pointer;
+}     
+
+a{
+    color:white;
+}
+
+
+.contact-us{
+    color: white;
+    font-family: Bahnschrift;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.contact-us-list-hover{
+    list-style: circle;
+    text-align: center;
+    font-family: Bahnschrift;
+    color:white;
+    font-size: 20px;
+}
+
+
+/* sakit na ng ulo ko haha*/
+.slider{
+  width: 800px;
+  height: 650px;
+  border-radius: 10px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top:160px;
+  left: 530px;
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width:20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 650px;
+}
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border:2px solid #40d3dc;
+  padding:7px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition:1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40d3dc;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+#radio5:checked ~ .first{
+  margin-left: -80%;
+}
+
+#radio6:checked ~ .first{
+  margin-left: -100%;
+}
+
+#radio7:checked ~ .first{
+  margin-left: -120%;
+}
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 560px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40d3dc;
+  padding: 7px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40d3dc;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40d3dc;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40d3dc;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40d3dc;
+}
+
+#radio5:checked ~ .navigation-auto .auto-btn5{
+  background: #40d3dc;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn6{
+  background: #40d3dc;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn7{
+  background: #40d3dc;
+}
+
+.bottom-box{
+    position: fixed;
+    background-color: #6a6a6a;
+    width: 100%;
+    height: 5%;
+    bottom:0;
+    transition: 1.5s;
+}
+
+.bottom-box p{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    position: relative;
+    margin-top:0;
+    letter-spacing: -1px;
+}
+
+.bottom-box:hover{
+    position: fixed;
+    background-color: #212121;
+    width: 100%;
+    height: 30%;
+    bottom:0;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.bottom-box:focus{
+    position: static;
+    background-color: #404040;
+    width: 100%;
+    height: 30%;
+    bottom:0;
+    transition: 1.5s;
+    cursor: pointer;
+}
+
+.contact-us{
+    color: white;
+    font-family: Bahnschrift;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;    
+    font-weight: bolder;
+}
+
+.contact-us-list-hover{
+    list-style: circle;
+    text-align: center;
+    font-family: Bahnschrift;
+    color:white;
+    font-size: 20px;
+}
+
+
+.paragraph{
+    text-align: right;
+}

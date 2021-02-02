@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AIM Home</title>
+    <link rel="stylesheet" href="ICTORGEVENTS.css">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|OpenSans" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="bg-image">
+        </div>
+    	<div class="ict">   
+           <a href="ICTORG.html">
+                <img src="ICTLOGO.png">   
+           </a>
+        </div>
+        <div class="ict-name">
+            <a href="ICTORG.html"><h6>ASSOCIATION OF ICT MAJORS</h6></a>
+        </div>
+            <div class="logo">
+                <img src="logo0.jpg" alt="">
+            </div>
+        </div>
+        <ul class="nav-area">
+            <li><a href="ICTORG.html">Home</a></li>
+            <li><a href="ICTORGABOUTUS.html">About Us</a></li>
+            <li><a class="active" href="ICTORGEVENTS.html">Events and Activities</a></li>
+            <li><a href="ICTORGGALLERY.html">Gallery</a></li>
+            <li><a href="ICTORGCONTACTUS.html">Contact Us</a></li>
+        </ul>
+    <div class="slider">
+      <div class="slides">
+
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <input type="radio" name="radio-btn" id="radio5">
+        <input type="radio" name="radio-btn" id="radio6">
+        <input type="radio" name="radio-btn" id="radio7">
+
+        <div class="slide first">
+          <img src="ICTWEEK.png" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="ICTESSAY.png" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="ICTSLOGANMAKING.png" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="ICTQUIZBEE.png" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="ICTSCHEDTHURSDAY.png" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="ICTSCHEDFRIDAY1.png" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="ICTSCHEDFRIDAY2.png" alt="">
+        </div>
+
+        <div class="navigation-auto">
+          
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+          <div class="auto-btn5"></div>
+          <div class="auto-btn6"></div>
+          <div class="auto-btn7"></div>
+
+
+        </div>
+        
+      </div>
+
+      <div class="navigation-manual">
+        
+        <label for="radio1"class="manual-btn"></label>
+        <label for="radio2"class="manual-btn"></label>
+        <label for="radio3"class="manual-btn"></label>
+        <label for="radio4"class="manual-btn"></label>
+        <label for="radio5"class="manual-btn"></label>
+        <label for="radio6"class="manual-btn"></label>
+        <label for="radio7"class="manual-btn"></label>
+
+
+      </div>
+
+    </div>
+
+    <div class="main-welcome">
+       <div class="welcome">ICT WEEK <br>EVENTS AND <br>ACTIVITES 2021</div>
+       <p class="paragraph">Here are the upcoming events<br> and activities during ICT Week!</p>
+    </div>
+        <div class="main-bottom-box">
+            <div id="hover" class="bottom-box">
+                <p>==</p>
+                <p class="contact-us">Contact Us</p>
+                <ul class="contact-us-list-hover">
+                    <li><u><a href="https://www.facebook.com/lvccictweek" target="_blank">https://www.facebook.com/lvccictweek</a></u></li>                    
+                    <li><u><a href="https://www.facebook.com/AssociationofICTMajors" target="_blank">https://www.facebook.com/AssociationofICTMajors</a></u></li>
+                    <li><u>aim@laverdad.edu.ph</u></li>
+                </ul>
+                <img class="ictweeklogo" src="ictweek.png"></img>
+                <img class="laverdadlogo" src="laverdadlogo.jpg"></img>
+            </div>
+        </div>
+    </header>
+
+     <script type="text/javascript">
+      
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++
+        if(counter > 7){
+          counter = 1;
+        }
+      }, 3000);
+
+    </script>
+</body>
+</html>
